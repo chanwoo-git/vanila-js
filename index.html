@@ -17,27 +17,31 @@
 </head>
 
 <body>
-  <!-- 페이지의 시간을 나타내는 부분. 
-  clock.js 파일을 사용하였음. -->
-  <div class="js-clock">
-    <h1 class="js-title">00:00:00</h1>
+  <div class="flexbox">
+    <!-- 페이지의 시간을 나타내는 부분. 
+    clock.js 파일을 사용하였음. -->
+    <div class="js-clock css-clock">
+      <h1 class="js-title css-title">00:00:00</h1>
+    </div>
+    <!-- 페이지에서 사용자의 이름을 물어보는 부분.
+    greeting.js 파일을 사용하였음. -->
+    <form action="" class="js-form form css-form">
+      <input class="css-input" type="text" name="" id="" placeholder="What is your name?">
+    </form>
+    <h4 class="js-greetings greetings css-greetings"></h4>
+    <!-- 페이지에서 사용할 수 있는 To Do 리스트의 기본 틀.
+    todo.js 파일을 사용하였음. -->
+    <form action="" class="js-toDoForm css-toDoForm">
+      <input type="text" placeholder="Write a to do">
+    </form>
+    <ul class="js-toDoList css-toDoList">
+    </ul>
+    <!-- 페이지에서 사용자가 위치한 지역의 날씨를 보여주는 부분.
+    weather.js 파일을 사용하였음. -->
+    <div class="helper">
+      <span class="js-weather css-weather"></span>
+    </div>
   </div>
-  <!-- 페이지에서 사용자의 이름을 물어보는 부분.
-  greeting.js 파일을 사용하였음. -->
-  <form action="" class="js-form form">
-    <input type="text" name="" id="" placeholder="What is your name?">
-  </form>
-  <h4 class="js-greetings greetings"></h4>
-  <!-- 페이지에서 사용할 수 있는 To Do 리스트의 기본 틀.
-  todo.js 파일을 사용하였음. -->
-  <form action="" class="js-toDoForm">
-    <input type="text" placeholder="Write a to do">
-  </form>
-  <ul class="js-toDoList">
-  </ul>
-  <!-- 페이지에서 사용자가 위치한 지역의 날씨를 보여주는 부분.
-  weather.js 파일을 사용하였음. -->
-  <span class="js-weather"></span>
   <!-- 이 외에도 HTML 파일의 틀은 없지만 페이지의 배경 이미지를 담당하는.
   bg.js 파일이 있다. -->
 </body>
